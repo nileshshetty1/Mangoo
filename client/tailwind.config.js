@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "mango-background": "url(./src/assets/mango-background.jpg)",
+      },
+    },
   },
   plugins: [],
 };
